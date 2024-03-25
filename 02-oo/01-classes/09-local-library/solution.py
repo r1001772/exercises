@@ -15,7 +15,7 @@ class Library:
     def remove_book(self, book):
         for lib_book in self.books:
             if book.title == lib_book.title and book.author == lib_book.author:
-                self.books.remove(lib_book)
+                self.books.remove(lib_book) 
 
     def search_books(self, search_string):
         results = []
